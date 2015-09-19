@@ -305,7 +305,7 @@ Cojure built-in facilities: <code>(require ... :reload)</code> and <code>(requir
 <p>
 Some problems.
 </p>
-<ul>
+<ul style="font-size:0.75em">
 <li class="fragment roll-in">If you modify two namespaces which depend on each other, you must remember to reload them in the correct order to avoid compilation errors.</li>
 <li class="fragment roll-in">If you remove definitions from a source file and then reload it, those definitions are still available in memory. If other code depends on those definitions, it will continue to work but will break the next time you restart the JVM.</li>
 <li class="fragment roll-in">If the reloaded namespace contains defmulti, you must also reload all of the associated defmethod expressions.</li>
