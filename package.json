@@ -1,0 +1,21 @@
+{
+  "name": "interactiveprogrammingtalk",
+  "version": "1.0.0",
+  "description": "Interactive programming talk at BeClojure meetup of 16 September 2015",
+  "private": true,
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt serve"
+  },
+  "author": {
+    "name": "Daniel Szmulewicz",
+    "email": "daniel.szmulewicz@gmail.com"
+  },
+  "engines": {
+    "node": "~4.0.0"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "vid-streamer": "~1.0.0"
+  }
+}
