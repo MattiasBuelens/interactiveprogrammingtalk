@@ -1,0 +1,3 @@
+cd ..\decktape
+.\phantomjs.exe .\decktape.js reveal http://localhost:8080/interactiveprogramming.html talk-1280x960.pdf -s 1280x960
+.\phantomjs.exe .\decktape.js reveal http://localhost:8080/interactiveprogramming.html talk-1600x900.pdf -s 1600x900
