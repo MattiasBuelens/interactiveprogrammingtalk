@@ -1,0 +1,28 @@
+/*!
+ * reveal.js video sync
+ *
+ * By Mattias Buelens (http://github.com/MattiasBuelens)
+ */
+.reveal {
+  height: 70% !important; }
+
+.reveal .reveal-video-sync {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 20;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 30%; }
+  .reveal .reveal-video-sync video {
+    max-width: 100%;
+    max-height: 100%; }
+
+.reveal.reveal-video-sync-right .controls {
+  left: 10px;
+  right: auto; }
+
+.reveal.reveal-video-sync-right .reveal-video-sync {
+  left: auto;
+  right: 0;
+  text-align: right; }
