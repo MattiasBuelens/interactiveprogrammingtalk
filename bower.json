@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "reveal.js-video-sync-plugin": "git@github.com:MattiasBuelens/reveal.js-video-sync-plugin.git#~0.0.2",
+    "videojs-youtube": "git@github.com:MattiasBuelens/videojs-youtube.git#workaround-319",
     "video.js": "~5.0.2"
   }
 }
