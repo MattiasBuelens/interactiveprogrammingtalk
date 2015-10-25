@@ -1,0 +1,21 @@
+{
+  "name": "interactiveprogrammingtalk",
+  "description": "Interactive programming talk at BeClojure meetup of 16 September 2015",
+  "main": "server.js",
+  "authors": [
+    "Daniel Szmulewicz"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MattiasBuelens/interactiveprogrammingtalk",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "reveal.js-video-sync-plugin": "git@github.com:MattiasBuelens/reveal.js-video-sync-plugin.git#~0.0.2",
+    "video.js": "~5.0.2"
+  }
+}
