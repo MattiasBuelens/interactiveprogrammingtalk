@@ -13,4 +13,5 @@ node_modules
 .idea/
 
 ### Bower ###
-bower_components/
+bower_components/*/*
+!bower_components/*/dist
